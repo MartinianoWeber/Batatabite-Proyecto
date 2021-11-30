@@ -1,0 +1,1130 @@
+:root {
+--Bitcoin-naranja: #F7931A;
+--soft-orange: #FFE9D5;
+--secondary-blue: #1A9AF7;
+--soft-blue: #E7F5FF;
+--off-white: #faf8f7;
+--warm-black: #201E1C;
+--back: #282623;
+--gray: #BABABA;
+--off-white: #FAF8F7;
+--white: #fff;
+--fuenteprincipal: 'DM Sans';
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Generales */
+ 
+  h1, h2, h3, h4 {
+    font-family: var(--fuenteprincipal);
+    line-height: 1.2;
+}
+
+body {
+    font-family: var(--fuenteprincipal);
+}
+
+a {
+    text-decoration: none;
+}
+
+details > summary:first-of-type {
+    list-style-type: none;
+}
+
+
+/** Utilidades **/
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+
+
+/* Background Header */
+.header {
+background: rgba(247,147,26,1);
+background: -moz-linear-gradient(left, rgba(247,147,26,1) 0%, rgba(247,147,26,1) 11%, rgba(247,147,26,1) 21%, rgba(56,48,40,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,147,26,1)), color-stop(11%, rgba(247,147,26,1)), color-stop(21%, rgba(247,147,26,1)), color-stop(100%, rgba(56,48,40,1)));
+background: -webkit-linear-gradient(left, rgba(247,147,26,1) 0%, rgba(247,147,26,1) 11%, rgba(247,147,26,1) 21%, rgba(56,48,40,1) 100%);
+background: -o-linear-gradient(left, rgba(247,147,26,1) 0%, rgba(247,147,26,1) 11%, rgba(247,147,26,1) 21%, rgba(56,48,40,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,147,26,1) 0%, rgba(247,147,26,1) 11%, rgba(247,147,26,1) 21%, rgba(56,48,40,1) 100%);
+background: linear-gradient(to right, rgba(247,147,26,1) 0%, rgba(247,147,26,1) 11%, rgba(247,147,26,1) 21%, rgba(56,48,40,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7931a', endColorstr='#383028', GradientType=1 );
+}
+
+.header {
+    width: auto;
+    height: 350px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__imagen {
+    margin-top: 60px;
+}
+
+.header__titulo {
+    font-size: 2.6rem;
+    word-break: normal;
+    margin-top: 4rem;
+    color: var(--soft-orange);
+    font-weight: 700;
+}
+
+.header__texto {
+    color: var(--soft-orange);
+    margin-top: 2.6rem;
+    font-size: 1.5rem;
+}
+
+/*Planes*/
+
+.planes__titulo {
+    width: 230px;
+    margin: auto;
+    margin-top: -4rem;
+    background-color: white;
+    border-radius: .8rem;
+}
+
+/* box shadow*/
+.planes__titulo {
+    -webkit-box-shadow: 3px 3px 23px -4px rgba(0,0,0,0.9);
+    -moz-box-shadow: 3px 3px 23px -4px rgba(0,0,0,0.9);
+    box-shadow: 3px 3px 23px -4px rgba(0,0,0,0.9);
+    
+}
+
+.gridtarjetas__shadow--recomendado {
+-webkit-box-shadow: -1px 4px 34px 0px rgba(1,169,175,1);
+-moz-box-shadow: -1px 4px 34px 0px rgba(1,169,175,1);
+box-shadow: -1px 4px 34px 0px rgba(1,169,175,1);
+position: relative;
+}
+.planes__h3 {
+    padding: 1.8rem;
+    font-size: 1.3rem;
+    align-items: center;
+    font-weight: 700;
+}
+
+.planes__flecha {
+    margin-left: 1.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.planes__imagencont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.planes__texto h3 {
+    font-size: 2.6rem;
+}
+
+.planes__texto p {
+    font-size: 1.5rem;
+    color: #757575;
+    font-weight: 700;
+}
+
+
+/*Display grid planes */
+
+
+
+
+/* Productos descripcion */
+
+
+
+/* Imagen conocelo estaaaaa */
+
+
+.imagenconocelo {
+    background-image: url(/assets/img/bitcoinbaby.jpg);
+    width: auto;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.imagenconocelo__conocelo {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(30% - 1px);
+    font-size: 6rem;
+    color: var(--white);
+}
+/* Seccion de planes por año */
+
+.seccion4 {
+    height: 600px;
+}
+
+.seccion4__titulo {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.seccion4__texto {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+
+
+
+
+.seccion4__boton {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: var(--secondary-blue);
+    width: 120px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: -4rem;
+    border-radius: 1.2rem;
+    padding: 1.5rem 1rem;
+}
+
+.gridtarjetas__boton {
+    background-color: var(--Bitcoin-naranja);
+    padding: 1.5rem 1rem;
+    width: 150px;
+    margin: auto;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--white);
+    border: 2px solid var(--Bitcoin-naranja);
+}
+
+.gridtarjetas__boton:hover {
+    border: 2px solid #cf7507;
+    color: var(--soft-orange);
+}
+
+.gridtarjetas__boton--recomendado {
+    border: 2px solid var(--secondary-blue);
+    color: var(--warm-black);
+}
+
+
+/* Seccion de Preguntas */
+
+.seccion5 {
+    width: auto;
+    height: auto;
+}
+
+.seccion5__titulo {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(240, 116, 116);
+    text-underline-offset: 15px;
+}
+
+.seccion5__preguntas {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    
+}
+
+.seccion5_estilo {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.seccion5_estilo {
+    position: relative;
+    color: firebrick;
+    cursor: pointer;
+}
+
+.imagens {
+    position: absolute;
+    left: calc(100% - 20px);
+    top: calc(50% - 1px);
+}
+
+.seccion5__respuesta {
+    font-size: 1.7rem;
+}
+
+
+/* Footer */
+
+.piedepagina {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    background-color: var(--Bitcoin-naranja);
+}
+
+.piedepagina__redes {
+    margin-top: 1rem;
+    font-size: 2rem;
+
+}
+
+.piedepagina__color {
+    color: white;
+}
+
+.piedepagina__batata {
+    width: 100px;
+    margin-top: 4rem;
+}
+
+.piedepagina__copy {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+
+/* RESPOSIVE */
+
+/* Compuadoras */
+
+@media (min-width: 851px ) and (max-width: 1900px ) {
+    .producto {
+        background-color: var(--warm-black);
+        height: 490px;
+    }
+    
+    .batata{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -1.3rem;
+    }
+    
+    .producto__titulo {
+        padding: .5rem;
+        color: var(--white);
+        font-size: 2.4rem;
+    }
+    
+    .producto__texto {
+        font-size: 1.4rem;
+        color: #808080;
+        margin-top: -1rem;
+    }
+    
+    .caracteristicas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+        width: 800px;
+        margin: auto;
+    }
+    
+    .caracteristicas__article {
+        background-color: #282623;
+        padding: 1.4rem;
+    }
+    
+    .caracteristicas__article h3 {
+        font-size: 2rem;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+    
+    .caracteristicas__article p {
+        font-size: 1.4rem;
+        color: #808080;
+    }
+    .gridtarjetas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 700px;
+        height: 300px;
+        column-gap: 3rem;
+        margin: auto;
+        margin-top: 3rem;
+    
+    }
+    
+    .gridtarjetas__shadow {
+        -webkit-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        -moz-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        scroll-snap-align: center;
+    }
+    .gridtarjetas__titulos {
+        font-size: 2.2rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .gridtarjetas__precio {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .gridtarjetas__descripcion {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+    }
+    
+    .gridtarjetas__simbolo {
+        font-size: 1.2rem;
+        line-height: 14.2px;
+        text-align: center;
+    }
+    .planes__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 500px;
+        margin: auto;
+      
+    }
+    
+    .planes__moneda {
+        align-self: center;
+        justify-self: center;
+        margin-left: 2rem;
+    
+        
+    
+    }
+    
+    .planes__comisiones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+        justify-self: center;
+    
+    }
+    
+    .planes__titulomain {
+        width: 200px;
+        margin: auto;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .planes__estilos {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    
+    .monedas__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .centrado__grid {
+        justify-self: center;
+    }
+    
+    .centrado__delado {
+        justify-self: left;
+    }
+    
+    .planes__titulomain--prueba {
+        margin-right: 3rem;
+        color: #f7931a;
+    }
+    
+    .planes__titulomain2--prueba{
+        color: #1a9af7;
+    }
+    
+    
+    .planes__actualizado {
+        font-size: 1.4rem;
+        color: var(--back);
+        margin-bottom: 4rem;
+    }
+    
+    .planes__negrita {
+        color: black;
+        font-weight: 700;
+    }
+    
+    .planes__background {
+        background-color: var(--Bitcoin-naranja);
+        border-radius: 6rem;
+        width: 200px;
+        margin: auto;
+    }
+    
+    
+    .planes__background--modificacion {
+        margin-right: 2.6rem;
+    }
+    
+    .planescentrado {
+        margin-left: 3.2rem;
+    }
+    .seccion4__boton {
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: var(--secondary-blue);
+        width: 120px;
+        margin: auto;
+        position: absolute;
+        top: calc(-5% - 6px);
+        left: calc(23% - 1px);
+        border-radius: 1.2rem;
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 700px ) and (max-width: 850px ) {
+    
+    .producto {
+        background-color: var(--warm-black);
+        height: 900px;
+    }
+    
+    .batata{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -1.3rem;
+    }
+    
+    .producto__titulo {
+        padding: .5rem;
+        color: var(--white);
+        font-size: 2.4rem;
+    }
+    
+    .producto__texto {
+        font-size: 1.4rem;
+        color: #808080;
+        margin-top: -1rem;
+    }
+    
+    .caracteristicas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+        width: 600px;
+        margin: auto;
+    }
+    
+    .caracteristicas__article {
+        background-color: #282623;
+        padding: 1.4rem;
+    }
+    
+    .caracteristicas__article h3 {
+        font-size: 2rem;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+    
+    .caracteristicas__article p {
+        font-size: 1.4rem;
+        color: #808080;
+    }
+    .gridtarjetas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 700px;
+        height: 300px;
+        column-gap: 3rem;
+        margin: auto;
+        margin-top: 3rem;
+    
+    }
+    
+    .gridtarjetas__shadow {
+        -webkit-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        -moz-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        scroll-snap-align: center;
+    }
+    .gridtarjetas__titulos {
+        font-size: 2.2rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .gridtarjetas__precio {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .gridtarjetas__descripcion {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+    }
+    
+    .gridtarjetas__simbolo {
+        font-size: 1.2rem;
+        line-height: 14.2px;
+        text-align: center;
+    }
+    .planes__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 500px;
+        margin: auto;
+      
+    }
+    
+    .planes__moneda {
+        align-self: center;
+        justify-self: center;
+        margin-left: 2rem;
+    
+        
+    
+    }
+    
+    .planes__comisiones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+        justify-self: center;
+    
+    }
+    
+    .planes__titulomain {
+        width: 200px;
+        margin: auto;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .planes__estilos {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    
+    .monedas__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .centrado__grid {
+        justify-self: center;
+    }
+    
+    .centrado__delado {
+        justify-self: left;
+    }
+    
+    .planes__titulomain--prueba {
+        margin-right: 3rem;
+        color: #f7931a;
+    }
+    
+    .planes__titulomain2--prueba{
+        color: #1a9af7;
+    }
+    
+    
+    .planes__actualizado {
+        font-size: 1.4rem;
+        color: var(--back);
+        margin-bottom: 4rem;
+    }
+    
+    .planes__negrita {
+        color: black;
+        font-weight: 700;
+    }
+    
+    .planes__background {
+        background-color: var(--Bitcoin-naranja);
+        border-radius: 6rem;
+        width: 200px;
+        margin: auto;
+    }
+    
+    
+    .planes__background--modificacion {
+        margin-right: 2.6rem;
+    }
+    
+    .planescentrado {
+        margin-left: 3.2rem;
+    }
+    .seccion4__boton {
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: var(--secondary-blue);
+        width: 120px;
+        margin: auto;
+        position: absolute;
+        top: calc(-5% - 6px);
+        left: calc(23% - 1px);
+        border-radius: 1.2rem;
+        padding: 1.5rem 1rem;
+    }
+}
+
+
+@media (min-width: 200px ) and (max-width: 699px ) {
+    
+    .producto {
+        background-color: var(--warm-black);
+        height: 900px;
+    }
+    
+    .batata{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -1.3rem;
+    }
+    
+    .producto__titulo {
+        padding: .5rem;
+        color: var(--white);
+        font-size: 2.4rem;
+    }
+    
+    .producto__texto {
+        font-size: 1.4rem;
+        color: #808080;
+        margin-top: -1rem;
+    }
+    
+    .caracteristicas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+        width: auto;
+        margin: auto;
+    }
+    
+    .caracteristicas__article {
+        background-color: #282623;
+        padding: 1.4rem;
+    }
+    
+    .caracteristicas__article h3 {
+        font-size: 2rem;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+    
+    .caracteristicas__article p {
+        font-size: 1.4rem;
+        color: #808080;
+    }
+    .seccion4 {
+        height: 600px;
+    }
+    
+    .seccion4__titulo {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    
+    .seccion4__texto {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .scroll {
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        width: auto;
+        height: 400px;
+    }
+    .gridtarjetas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: auto;
+        height: auto;
+        column-gap: 3rem;
+        margin: auto;
+        margin-top: 3rem;
+
+    }
+    
+    
+
+    .gridtarjetas__shadow {
+        -webkit-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        -moz-box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+        box-shadow: 3px 6px 25px 6px rgba(0,0,0,0.69);
+    }
+    .gridtarjetas__titulos {
+        font-size: 2.2rem;
+        margin-top: 4rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .gridtarjetas__precio {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .gridtarjetas__descripcion {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+    }
+    
+    .gridtarjetas__simbolo {
+        font-size: 1.2rem;
+        line-height: 14.2px;
+        text-align: center;
+    }
+
+    .gridtarjetas__precio--modificador {
+        margin-top: 0;
+    }
+    .gridtarjetas__titulos--modificador {
+        margin-bottom: .4rem;
+    }
+    
+    
+    .seccion4__boton {
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: var(--secondary-blue);
+        width: 120px;
+        margin: auto;
+        position: absolute;
+        top: calc(-5% - 6px);
+        left: calc(20% - 1px);
+        border-radius: 1.2rem;
+        padding: 1.5rem 1rem;
+    }
+    
+    .gridtarjetas__boton {
+        background-color: var(--Bitcoin-naranja);
+        padding: 1.5rem 1rem;
+        width: 150px;
+        margin: auto;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: var(--white);
+        border: 2px solid var(--Bitcoin-naranja);
+    }
+
+
+    
+    .gridtarjetas__boton:hover {
+        border: 2px solid #cf7507;
+        color: var(--soft-orange);
+    }
+    
+    .gridtarjetas__boton--recomendado {
+        border: 2px solid var(--secondary-blue);
+        color: var(--warm-black);
+    }
+
+    .seccion5 {
+        width: auto;
+        height: auto;
+    }
+    
+    .seccion5__titulo {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 7rem;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(240, 116, 116);
+        text-underline-offset: 15px;
+        margin-top: 15rem;
+    }
+    
+    .seccion5__preguntas {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+        
+    }
+    
+    .seccion5_estilo {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .seccion5_estilo {
+        position: relative;
+        color: firebrick;
+        cursor: pointer;
+    }
+    
+    .imagens {
+        position: absolute;
+        left: calc(100% - 20px);
+        top: calc(50% - 1px);
+    }
+    
+    .seccion5__respuesta {
+        font-size: 1.7rem;
+    }
+
+    .planes__grid {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+        width: auto;
+        margin: auto;
+      
+    }
+    
+    .planes__moneda {
+        align-self: center;
+        justify-self: center;
+        margin-left: 2rem;
+    
+        
+    
+    }
+    
+    .planes__comisiones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+        justify-self: center;
+    
+    }
+    
+    .planes__titulomain {
+        width: 200px;
+        margin: auto;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .planes__estilos {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    
+    .monedas__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .centrado__grid {
+        justify-self: center;
+    }
+    
+    .centrado__delado {
+        justify-self: left;
+    }
+    
+    .planes__titulomain--prueba {
+        margin-right: 3rem;
+        color: #f7931a;
+    }
+    
+    .planes__titulomain2--prueba{
+        color: #1a9af7;
+    }
+    
+    
+    .planes__actualizado {
+        font-size: 1.4rem;
+        color: var(--back);
+        margin-bottom: 4rem;
+    }
+    
+    .planes__negrita {
+        color: black;
+        font-weight: 700;
+    }
+    
+    .planes__background {
+        background-color: var(--Bitcoin-naranja);
+        border-radius: 6rem;
+        width: 200px;
+        margin: auto;
+    }
+    
+    
+    .planes__background--modificacion {
+        margin-right: 2.6rem;
+    }
+    
+    .planescentrado {
+        margin-left: 2.5rem;
+    }
+}
+
+
+/* Conocelo hoy */
+
+@media (min-width: 400px ) and (max-width: 700px ) {
+    .imagenconocelo {
+        background-image: url(/assets/img/bitcoinbaby.jpg);
+        width: auto;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .imagenconocelo__conocelo {
+        position: absolute;
+        left: calc(60% - 250px);
+        top: calc(30% - 1px);
+        font-size: 5rem;
+        color: var(--white);
+    }
+}
+
+@media (min-width: 400px ) and (max-width: 499px ) {
+    .imagenconocelo {
+        background-image: url(/assets/img/bitcoinbaby.jpg);
+        width: auto;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .imagenconocelo__conocelo {
+        position: absolute;
+        left: calc(63% - 250px);
+        top: calc(30% - 1px);
+        font-size: 5rem;
+        color: var(--white);
+    }
+}
+
+@media (min-width: 345px ) and (max-width: 399px ) {
+    .imagenconocelo {
+        background-image: url(/assets/img/bitcoinbaby.jpg);
+        width: auto;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .imagenconocelo__conocelo {
+        position: absolute;
+        left: calc(76% - 250px);
+        top: calc(10% - 1px);
+        font-size: 6rem;
+        color: var(--white);
+    }
+}
+
+@media (min-width: 280px ) and (max-width: 344px ) {
+    .imagenconocelo {
+        background-image: url(/assets/img/bitcoinbaby.jpg);
+        width: auto;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    
+    .imagenconocelo__conocelo {
+        position: absolute;
+        left: calc(100% - 250px);
+        top: calc(40% - 1px);
+        font-size: 3rem;
+        color: var(--white);
+    }
+    
+    .seccion5 {
+        width: auto;
+        height: auto;
+    }
+    
+    .seccion5__titulo {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 7rem;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(240, 116, 116);
+        text-underline-offset: 15px;
+        margin-top: 20rem;
+    }
+    
+    .seccion5__preguntas {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+        
+    }
+    
+    .seccion5_estilo {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .seccion5_estilo {
+        position: relative;
+        color: firebrick;
+        cursor: pointer;
+    }
+}
+
+
+/* Celulares */
